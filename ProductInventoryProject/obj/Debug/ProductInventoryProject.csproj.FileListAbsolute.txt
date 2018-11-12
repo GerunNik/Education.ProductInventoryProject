@@ -1,0 +1,11 @@
+C:\Users\Nikola.Gerun.ARGUSNET\Documents\Visual Studio 2017\Projects\ProductInventoryProject\ProductInventoryProject\bin\Debug\ProductInventoryProject.exe.config
+C:\Users\Nikola.Gerun.ARGUSNET\Documents\Visual Studio 2017\Projects\ProductInventoryProject\ProductInventoryProject\bin\Debug\ProductInventoryProject.exe
+C:\Users\Nikola.Gerun.ARGUSNET\Documents\Visual Studio 2017\Projects\ProductInventoryProject\ProductInventoryProject\bin\Debug\ProductInventoryProject.pdb
+C:\Users\Nikola.Gerun.ARGUSNET\Documents\Visual Studio 2017\Projects\ProductInventoryProject\ProductInventoryProject\obj\Debug\ProductInventoryProject.csprojAssemblyReference.cache
+C:\Users\Nikola.Gerun.ARGUSNET\Documents\Visual Studio 2017\Projects\ProductInventoryProject\ProductInventoryProject\obj\Debug\ProductInventoryProject.Form1.resources
+C:\Users\Nikola.Gerun.ARGUSNET\Documents\Visual Studio 2017\Projects\ProductInventoryProject\ProductInventoryProject\obj\Debug\ProductInventoryProject.newProduct.resources
+C:\Users\Nikola.Gerun.ARGUSNET\Documents\Visual Studio 2017\Projects\ProductInventoryProject\ProductInventoryProject\obj\Debug\ProductInventoryProject.Properties.Resources.resources
+C:\Users\Nikola.Gerun.ARGUSNET\Documents\Visual Studio 2017\Projects\ProductInventoryProject\ProductInventoryProject\obj\Debug\ProductInventoryProject.csproj.GenerateResource.cache
+C:\Users\Nikola.Gerun.ARGUSNET\Documents\Visual Studio 2017\Projects\ProductInventoryProject\ProductInventoryProject\obj\Debug\ProductInventoryProject.csproj.CoreCompileInputs.cache
+C:\Users\Nikola.Gerun.ARGUSNET\Documents\Visual Studio 2017\Projects\ProductInventoryProject\ProductInventoryProject\obj\Debug\ProductInventoryProject.exe
+C:\Users\Nikola.Gerun.ARGUSNET\Documents\Visual Studio 2017\Projects\ProductInventoryProject\ProductInventoryProject\obj\Debug\ProductInventoryProject.pdb
