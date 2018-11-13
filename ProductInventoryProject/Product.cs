@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ProductInventoryProject.Properties;
-
-namespace ProductInventoryProject
+﻿namespace ProductInventoryProject
 {
     public class Product
     {
@@ -17,27 +10,35 @@ namespace ProductInventoryProject
 
 
 
-        public Product(string vProductName, double vPrice, int vQuantity)
+        public Product(string newProductName, double newPrice, int newQuantity)
         {
-            ID = AmountOfIDs++;
-            ProductName = vProductName;
-            Price = vPrice;
-            Quantity = vQuantity;
+            this.ID = AmountOfIDs++;
+            this.ProductName = newProductName;
+            this.Price = newPrice;
+            this.Quantity = newQuantity;
             Inventory.ProductInventory.Add(this);
         }
 
-        public double getPrice()
+        public double GetPrice()
         {
-            return Price;
+            return this.Price;
         }
 
-        public string getName()
+        public string GetName()
         {
-            return ProductName;
+            return this.ProductName;
         }
-        public int getQuantity()
+        public int GetQuantity()
         {
-            return Quantity;
+            return this.Quantity;
+        }
+        public void SetQuantity(int value)
+        {
+            this.Quantity = value;
+        }
+        public void SetPrice(double value)
+        {
+            this.Price = value;
         }
     }
 }

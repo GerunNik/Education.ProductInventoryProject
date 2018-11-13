@@ -1,39 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using ProductInventoryProject.Properties;
-
-namespace ProductInventoryProject
+﻿namespace ProductInventoryProject
 {
+    using System;
+    using System.Windows.Forms;
     public partial class Form1 : Form
     {
         Inventory InventoryOfProducts = new Inventory();
         public Form1()
         {
-            InitializeComponent();
+            this.InitializeComponent();
             
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            newProduct newProd = new newProduct();
+            NewProduct newProd = new NewProduct();
             newProd.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            totalValue_txt.Text = InventoryOfProducts.getValueAll().ToString();
+            this.totalValue_txt.Text = this.InventoryOfProducts.GetValueAll().ToString();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            itemValue_txt.Text = InventoryOfProducts.getValue(item_txt.Text).ToString();
+            this.itemValue_txt.Text = this.InventoryOfProducts.GetValue(this.item_txt.Text).ToString();
+
+            this.newPrice_txt.Text = this.InventoryOfProducts.GetPrice(this.item_txt.Text).ToString(); 
+            
+            this.newQuantity_txt.Text = this.InventoryOfProducts.GetQuantity(this.item_txt.Text).ToString();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (this.newPrice_txt.Text != string.Empty)
+            {
+                this.InventoryOfProducts.SetPrice(this.item_txt.Text, Convert.ToDouble(this.newPrice_txt.Text));
+            }
+            if (this.newQuantity_txt.Text != string.Empty)
+            {
+                this.InventoryOfProducts.SetQuantity(this.item_txt.Text, Convert.ToInt32(this.newQuantity_txt.Text));
+            }
         }
     }
 }
